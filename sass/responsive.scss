@@ -1,0 +1,147 @@
+
+/* Laptop Device: 1200px */
+@media (min-width: 1366px) and (max-width: 1500px){
+    #slider_area .slider-app .app-shape-02 {
+        right: -3%;
+    }
+  }
+
+  /* Normal Desktop: 992px */
+  @media (max-width: 1199px){
+     #pricing_table_section .pricing-box .card .card-body .pricing-btn a {
+        padding: 20px 22px;
+    }
+    #latest_news_section .latest-news-post ul li {
+      display: inline-block;
+      font-size: 11px;
+    }
+    #slider_area .slider-app .app-shape-02 {
+      right: 0%;
+  }
+  }
+  
+  /* Tablet Desktop: 768px */
+  @media (max-width: 991px){
+    #pricing_table_section .pricing-box .card {
+        margin-bottom: 0px;
+    }
+    #testimonial_section h2 {
+      padding-top: 0;
+    }
+    img.app-shape.app-shape-02 {
+      right: -5%;
+    }
+    #pricing_table_section .pricing-box .card {
+      border: 1px solid #d2d2d2;
+  }
+  }
+  
+  /* Small mobile: 320px; */
+  @media (max-width: 767px){
+    h1{
+      font-size: 40px;
+    }
+    h2{
+      font-size: 36px;
+    }
+    h3{
+      font-size: 28px;
+    }
+    h4{
+      font-size: 25px;
+    }
+     #newsletter_section .signup-form {
+        padding: 60px 20px;
+    }
+    #newsletter_section form input[type="email"] {
+        padding: 20px 0 20px 25px;
+        border-radius: 50px;
+    }
+    #newsletter_section form input[type="submit"] {
+        padding: 18px 24px;
+        font-size: 18px;
+    }
+}
+  
+/* Large Mobile: 480px */
+@media (max-width: 575px){
+      #slider_area .slider-content button {
+        padding: 15px 40px;
+    }
+    #testimonial_section .testimonial-slider .each-slide p {
+        font-size: 24px;
+    }
+    #newsletter_section .signup-form {
+        border-radius: 0px;
+    }
+    #newsletter_section form input[type="email"] {
+        padding: 15px 0 15px 25px;
+        border-radius: 10px;
+    }
+    #newsletter_section form input[type="submit"] {
+        position: static;
+        border-radius: 10px;
+        width: 100%;
+        padding: 16px 24px;
+        font-size: 15px;
+    }
+    #brand_section h3 {
+      display: none;
+  }
+  
+}
+@media (max-width: 480px){
+  h2{
+    font-size: 30px!important;
+  }
+  h3{
+    font-size: 22px;
+  }
+  h4{
+    font-size: 22px;
+  }
+  /** using sass **/
+  #slider_area {
+    min-height: 920px;
+
+    h1{
+      font-size: 32px;
+    }
+    p{
+      font-size: 16px!important;
+    }
+    .primary-btn, .secondary-btn{
+      display: inherit;
+    }
+    .primary-btn{
+      margin-bottom: 10px;
+    }
+    .slider-content .secondary-btn {
+      border: 2px solid #fff;
+      background: transparent;
+      margin-left: 0px!important;
+    }
+    .slider-content {
+      padding-top: 103px;
+    }
+  }
+  /** sass end **/
+
+  #three_sections #work_section .work-right-text button {
+    padding: 17px 30px;
+    font-size: 13px;
+  }
+  #pricing_table_section .pricing-filter .price-menu-box ul li .nav-link.active {
+    padding: 18px 28px;
+  }
+  #pricing_table_section .pricing-filter .price-menu-box ul li .nav-link {
+    padding: 18px 28px;
+  }
+  .mean-container .mean-nav ul li a {
+    font-size: 16px;
+}
+
+}
+  
+  
+  

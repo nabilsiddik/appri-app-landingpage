@@ -1,0 +1,110 @@
+/********************************
+Responsive Design
+********************************/
+/*******************************
+Start Responsive for maximum Width
+******************************/
+@media (max-width: 1199px) {
+  .pricing-box .card {
+    padding: 10px 0 !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #header_area #nevigation {
+    margin-bottom: 0px;
+  }
+  #header_area .slider-content {
+    margin-top: 100px !important;
+  }
+  #work_section {
+    padding-bottom: 0px !important;
+  }
+  #work_section .work-right-text {
+    padding-top: 20px !important;
+  }
+  #pricing_table_section .pricing-box-mb {
+    margin-bottom: -340px;
+  }
+  #pricing_table_section .pricing-box .card {
+    padding: 40px 50px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #slider_area {
+    min-height: 652px;
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  #slider_area .slider-content h1 {
+    font-size: 36px;
+  }
+  #slider_area .slider-content p {
+    font-size: 20px;
+  }
+  #slider_area .slider-content button {
+    padding: 19px 32px;
+  }
+  #work_section .work-right-text button {
+    padding: 19px 32px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  #slider_area p {
+    font-size: 18px !important;
+  }
+  #work_section .section-heading p {
+    font-size: 18px;
+  }
+  ul li .nav-link {
+    padding: 15px 30px !important;
+  }
+  ul li .nav-link.active {
+    padding: 15px 30px !important;
+  }
+  #testimonial_section .testimonial-slider p {
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 393px) {
+  #slider_area .slider-content .secondary-btn {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1315px) {
+  .company_section h4 {
+    padding: 0 230px !important;
+  }
+}
+
+/*******************************
+End Responsive for maximum Width
+******************************/
+/*******************************
+Start Responsive for Minimum Width
+******************************/
+@media (min-width: 1200px) {
+  #slider_area .slider-content h1 {
+    padding-right: 150px;
+  }
+}
+
+@media (min-width: 1199px) {
+  #work_section .work-right-text {
+    padding-top: 50px !important;
+  }
+}
+
+/*******************************
+End Responsive for Minimum Width
+******************************/
+/*# sourceMappingURL=responsive.css.map */
+
+
+
